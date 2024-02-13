@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial scale=1">
+        <link rel="stylesheet" type="text/css" href="StyleCSS/ContactUs.css">
+    </head>
+    <body>
+        <header>
+            <ul>
+                <a href="HomePage.html"><img src="Images/logo.jpg" style="width: 100px;" ></a>
+                <a class="foodism" href="HomePage.html">FOODISM<span>(South Indian)</span></a>
+                <li><a href="CreateAccount.html"><u>CREATE ACCOUNT</u></a></li>
+                <li><a href="LogIn.html">LOG IN</a></li>
+                <li><a href="HomePage.html">HOME</a></li>
+                <li><a href="Menu.html">MENU</a></li>
+            </ul>
+        </header>
+            <br><br>
+
+        
+            <h1 style="background-color: white;font-size: 50px;color: maroon; text-align: center;">FEEDBACK!</h1>
+            <div class="ContactSection">
+            <form class="ContactForm" action="Success.html" onsubmit="return validateForm1()" novalidate >
+                    <input type="text" class="contact-form-text" id="name" placeholder="Your Name" onblur="validate1()">
+                    <span id="err1"></span><br>
+                    <input type="email" class="contact-form-text" id="email" placeholder="Your Email" onblur="validate2()">
+                    <span id="err2"></span><br>
+                    <input type="text" class="contact-form-text" id="number" placeholder="Your Phone" onblur="validate3()">
+                    <span id="err3"></span><br>
+                    <select id="box"><br>
+                    <option>How can we help you?</option>
+                    <option value="1">I have a question regarding table booking.</option>
+                    <option value="2">I need help with my Foodism online order.</option>
+                    <option value="3">I would like to give feedback/suggestions.</option>
+                    <option value="4">The website/app are not working the way they should.</option>
+                    <option value="5">I found incorrect/outdated information on a page. </option>
+                    <option value="6">I need some help with my blog.</option>
+                    <option value="7">There is a photo/review that is bothering me and I would like to report it.</option>
+                    <option value="8">Other</option>
+                    </select>
+                <br>
+                    <textarea cols="20" rows="10" class="contact-form-text" id="message" placeholder="Your Message" onblur="validate4()"></textarea>
+                    <span id="err4"></span><br>
+                    <input type="submit" value="Send"> 
+                    <input type="reset"> 
+                </form> 
+                <script src="JavaScript/ContactUs.js"></script>
+                <br>  
+                </div>
+                    <br><br>
+                    <div class="information">
+                    <p><b>Contact Number:</b>+91 1800-516-151</p>
+                    <p><b>Email Id:</b>foodism@gmail.com</p>
+                    </div>
+            </form>
+        </div>
+        <br><br>
+        <footer>
+            <ul>
+                <li><a href="AboutUs.html">ABOUT US</a></li>
+                <li><a href="ContactUs.html">CONTACT US</a></li>
+            </ul>
+            <div class="Allrights">
+            <p>All rights reserved by FOODISM</p>
+            </div>
+        </footer>
+    </body>
+</html>

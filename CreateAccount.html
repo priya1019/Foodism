@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create Account</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="StyleCSS/CreateAccount.css">
+    </head>
+    <body>
+        <header>
+            <ul>
+                <a href="HomePage.html"><img src="Images/logo.jpg" style="width: 100px;" ></a>
+                <a class="foodism" href="HomePage.html">FOODISM<span>(South Indian)</span></a>
+                <li><a href="CreateAccount.html"><u>CREATE ACCOUNT</u></a></li>
+                <li><a href="LogIn.html">LOG IN</a></li>
+                <li><a href="HomePage.html">HOME</a></li>
+                <li><a href="Menu.html">MENU</a></li>
+            </ul>
+        </header>
+            <br><br>
+        <div class="createAccForm">
+            <form action="Success.html" onsubmit="return validateForm1()" novalidate>
+                <h1>Create Account</h1>
+                <label>NAME :<input type="text" id="name" placeholder="Enter Your Name" onblur="validate1()"></label>
+                <span id="err1"></span><br>
+                <label>USERNAME :<input type="text"  id="username" placeholder="Enter Username" onblur="validate2()" ></label>
+                <span id="err2"></span><br>
+                <label>PASSWORD :<input type="password" id="password" placeholder="Enter Passowrd" onblur="validate3()"></label>
+                <span id="err3"></span><br>
+                <label>CONFIRM PASSWORD :<input type="password" id="confpassword" placeholder="Retype Password" onblur="validate4()" ></label>
+                <span id="err4"></span><br>
+                <label>EMAIL-ID :<input type="email" id="emailid" placeholder="Enter Your Email" onblur="validate5()" ></label>
+                <span id="err5"></span><br>
+                
+                <input type="submit" name="" value="Create">&nbsp;<input type="reset" >
+                <a href="LogIn.html">Already Registered?</a>
+            </form>
+            <script src="JavaScript/CreateAccount.js"></script>
+        
+        </div>
+        <br><br>
+        <footer>
+            <ul>
+                <li><a href="AboutUs.html">ABOUT US</a></li>
+                <li><a href="ContactUs.html">CONTACT US</a></li>
+            </ul>
+            <div class="Allrights">
+            <p>All rights reserved by FOODISM</p>
+            </div>
+        </footer>
+    </body>
+</html>

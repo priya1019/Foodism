@@ -1,0 +1,137 @@
+header{
+    width: 100%;
+    height: 100px;
+    margin:0px;
+    padding: 0px 0px;
+    background: rgba(0, 0, 0, 0.603);
+}
+.foodism{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 30px;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+li{
+    float: right;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px 12px;
+    font-size: 25px;
+}
+li a:hover{
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 20px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url("1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.LoginForm{
+    background-color: transparent;
+    color: white;
+    width: 320px;
+    height: 400px;
+    top: 40%;
+    left: 35%;
+    box-sizing: border-box; 
+    padding: 30px 30px;
+    position: relative;
+}
+.LoginForm input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.LoginForm input[type="text"],[type="password"],[type="email"]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.LoginForm input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 25px;
+    width: 250px;
+    background: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.LoginForm input[type="submit"]:hover{
+    cursor: pointer;
+    background: red;
+    color: black;
+}
+.LoginForm input[type="reset"]{
+    border: none;
+    outline: none;
+    height: 25px;
+    width: 250px;
+    background: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.LoginForm input[type="reset"]:hover{
+    cursor: pointer;
+    background: red;
+    color: black;
+}
+.LoginForm a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+}
+.LoginForm a:hover{
+    color: red;
+}
+footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    top: 180%;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+}
+.page{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.Allrights{
+    background-color: red;
+    text-align: center;
+    font-size: 18px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+a:hover{
+    color: white;
+}

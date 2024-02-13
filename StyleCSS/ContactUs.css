@@ -1,0 +1,160 @@
+header{
+    width: 100%;
+    height: 100px;
+    margin:0px;
+    padding: 0px 0px;
+    background: rgba(0, 0, 0, 0.603);
+}
+.foodism{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 30px;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+li{
+    float: right;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px 12px;
+    font-size: 25px;
+}
+li a:hover{
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 20px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url("1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+form{
+    margin-left: 35%;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    width: 300px;
+}
+.ContactForm{
+    padding: 70px 70px;
+
+}
+.contact-form-text{
+    text-align: center;
+    display: block;
+    margin:5px 0;
+    border: 1px solid white;
+    background: whitesmoke;
+    padding: 5px 5px;
+    color: black;
+    font-size: 20px;
+}
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px gray;
+}
+#box{
+    display: block;
+    width: 85%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border: 1px solid white;
+    background: white;
+    padding: 20px 20px;
+    color: black;
+
+}
+#box:focus{
+    box-shadow: 0 0 10px 4px gray;
+}
+textarea.contact-form-text{
+    resize: none;
+}
+input[type="text"]{
+    background: transparent;
+}
+input[type="email"]{
+    background: transparent;
+}
+.contact-form-text{
+    background: transparent;
+}
+input[type="submit"]{
+    border: 1px solid black;
+    background: maroon;
+    color: white;
+    margin-bottom: 10px;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+input[type="submit"]:hover{
+    background-color: red;
+}
+input[type="reset"]{
+    border: 1px solid black;
+    background: maroon;
+    color: white;
+    margin-bottom: 10px;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+input[type="reset"]:hover{
+    background-color: red;
+}
+.information{
+    border: 1px solid white;
+    padding: 12px 50px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    width: 92%;
+    background-color: maroon;
+}
+footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    top: 180%;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+}
+.page{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.Allrights{
+    background-color: red;
+    text-align: center;
+    font-size: 18px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+a:hover{
+    color: white;
+}
